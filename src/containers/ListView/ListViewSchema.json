@@ -1,6 +1,9 @@
 {
     "apis": {
         "dataKey": "data",
+        "paramsMap": {
+            "limitKey": "per_page"
+        },
         "request": {
             "baseURL": "https://reqres.in",
             "method": "GET",
@@ -24,6 +27,20 @@
             }
         ],
         "noData": "no users found"
+    },
+    "pagination": {
+        "position": "both",
+        "rowsPerPage": 10,
+        "rowsPerPageLabel": "Users per page",
+        "rowsPerPageOptions": [
+            50,
+            25,
+            10
+        ],
+        "totalRowsLabel": {
+            "prefix": "Total:",
+            "suffix": "Users"
+        }
     },
     "view": {
         "default": "list"
