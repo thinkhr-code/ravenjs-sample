@@ -10,11 +10,7 @@ import AppLogo from './AppLogo';
 
 const navItemActiveClassName = 'nav-item-active';
 
-const AppHeaderStyled = styled(Box)`
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-top-width: 0;
-`;
+const AppHeaderStyled = styled(Box)``;
 
 const NavLink = styled(RouterNavLink).attrs({
     activeClassName: navItemActiveClassName,
@@ -52,8 +48,9 @@ function AppHeader(props) {
         <AppHeaderStyled
             backgroundColor="#EFF2F7"
             padding="12px 15px"
-            elevation={3}
-            margin="0"
+            borderRadius="0"
+            borderWidth="0"
+            margin="0 0 25px 0"
             width="100%"
         >
             <Row alignItems="center" height="100%" gutter={false}>

@@ -1,0 +1,31 @@
+{
+    "apis": {
+        "dataKey": "data",
+        "request": {
+            "baseURL": "https://reqres.in",
+            "method": "GET",
+            "url": "/api/users"
+        },
+        "totalKey": "total"
+    },
+    "listSchema": {
+        "columns": [
+            {
+                "id": "id",
+                "title": "ID"
+            },
+            {
+                "id": "first_name",
+                "title": "First Name"
+            },
+            {
+                "id": "last_name",
+                "title": "Last Name"
+            }
+        ],
+        "noData": "no users found"
+    },
+    "view": {
+        "default": "list"
+    }
+}
