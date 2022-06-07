@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "axios": "0.18.0",
-        "lodash": "4.17.11",
+        "lodash": "4.17.21",
         "polished": "3.0.4",
         "prop-types": "15.7.2",
         "ravenjs": "https://s3.amazonaws.com/ravenjs/builds/PRODUCTION/ravenjs-1.0.0.tgz",
